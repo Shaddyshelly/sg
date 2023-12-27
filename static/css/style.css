@@ -371,7 +371,7 @@ h6,
   border-radius: 10px;
 }
 
-#hero .btn-get-started {
+.btn-get-started {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -386,11 +386,11 @@ h6,
   background: linear-gradient(112.39deg, #CB1637 19.81%, #FF6B86 108.64%);
 }
 
-#hero .btn-get-started:hover {
+.btn-get-started:hover {
   background: #209dd8;
 }
 
-#hero .btn-watch-video {
+.btn-watch-video {
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -400,7 +400,7 @@ h6,
   line-height: 1;
 }
 
-#hero .btn-watch-video i {
+ .btn-watch-video i {
   line-height: 0;
   color: #fff;
   font-size: 32px;
@@ -1105,12 +1105,13 @@ section {
 .service-details .card-img img {
   max-width: 100%;
   transition: all 0.3s ease-in-out;
+  border-radius: 20px;
 }
 
 .service-details .card-body {
   z-index: 10;
   background: #fff;
-  border-top: 4px solid #fff;
+  border-left: 6px solid rgba(246, 119, 102, 1);
   padding: 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   margin-top: -60px;
@@ -1118,9 +1119,10 @@ section {
 }
 
 .service-details .card-title {
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 20px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 0px;
+  padding-left: 20px;
 }
 
 .service-details .card-title a {
@@ -1128,8 +1130,15 @@ section {
   transition: 0.3s;
 }
 
+.card-logo {
+  padding-left: 20px;
+  height: 3rem;
+}
+
 .service-details .card-text {
   color: #5e5e5e;
+  border-left: 1px solid rgba(189, 189, 209, 1);
+  padding-left: 20px;
 }
 
 .service-details .read-more a {
@@ -1149,11 +1158,19 @@ section {
 }
 
 .service-details .card:hover .card-body {
-  border-color: #68A4C4;
+  border-color: rgba(246, 119, 102, 1);
 }
 
 .service-details .card:hover .card-body .card-title a {
   color: #68A4C4;
+}
+
+.redBtn {
+  border-radius: 4.2495rem;
+  border: 0.85px solid #CB1637;
+  background: #fff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1652,7 +1669,7 @@ section {
 .blog .entry {
   padding: 30px;
   margin-bottom: 60px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
 }
 
 .blog .entry .entry-img {
@@ -2003,7 +2020,7 @@ section {
 .blog .sidebar {
   padding: 30px;
   margin: 0 0 60px 20px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
 }
 
 .blog .sidebar .sidebar-title {
